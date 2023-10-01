@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+*{
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+a:hover {
+    color: #a42bab !important;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+#MainMenu{visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
